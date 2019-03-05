@@ -14,7 +14,7 @@ nav
 header
 {
     background-image: url(hex.jpg);
-    height: 200px;
+    height: 300px;
     width: 100%;
     text-align: center;
 }
@@ -22,6 +22,7 @@ header
 header h1
 {
     font-family: bold;
+    font-size: 50pt;
 }
 
 header p
@@ -29,4 +30,23 @@ header p
     font-family: 'Srisakdi', cursive;
     font-weight: bold;
     font-style: italic;
+}
+
+.services i
+{
+    font-size: 30px;
+    padding: 25px 20px;
+    color: #fff;
+    background-color: #5bc0de;
+    width: 80px;
+    height: 80px;
+    /*Changes the roundness of the container*/
+    border-radius: 50%;
+    text-align: center;
+}
+
+.services span
+{
+    width: 200px;
+    display: inline-block;
 }
