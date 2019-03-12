@@ -1,3 +1,10 @@
+/*To push to GitHub
+git status
+git add .
+git commit -m ""
+git push
+*/
+
 nav
 {
     text-transform: uppercase;
@@ -50,3 +57,23 @@ header p
     width: 200px;
     display: inline-block;
 }
+
+.team
+{
+    text-align: center;
+}
+
+.team img
+{
+    text-align: center;
+    border-radius: 50%;
+}
+ .team #title
+ {
+     text-align: center;
+ }
+ 
+ .team #Name
+ {
+     text-align: center;
+ }
